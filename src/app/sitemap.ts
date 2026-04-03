@@ -24,8 +24,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }))
 
+  const locationPages = [
+    "pool-builders-brisbane",
+    "pool-builders-gold-coast",
+    "pool-builders-sydney",
+  ].map((slug) => ({
+    url: `${base}/${slug}`,
+    lastModified: new Date(),
+    changeFrequency: "weekly" as const,
+    priority: 0.9,
+  }))
+
   return [
     { url: base, lastModified: new Date(), changeFrequency: "daily", priority: 1 },
+    ...locationPages,
     { url: `${base}/about`, changeFrequency: "monthly", priority: 0.5 },
     { url: `${base}/contact`, changeFrequency: "monthly", priority: 0.5 },
     { url: `${base}/archive`, changeFrequency: "daily", priority: 0.7 },
