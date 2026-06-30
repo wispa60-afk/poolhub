@@ -8,8 +8,8 @@ interface LocationPageProps {
   tips: string
 }
 
-export function LocationPage({ city, state, costRange, tips }: LocationPageProps) {
-  const articles = getAllArticles().slice(0, 3)
+export async function LocationPage({ city, state, costRange, tips }: LocationPageProps) {
+  const articles = (await getAllArticles()).slice(0, 3)
   const quoteUrl = `https://tradihubai.com.au/jobs/new?trade=pool-building&ref=poolhub-${city.toLowerCase().replace(/\s+/g, "-")}`
 
   return (
