@@ -2,9 +2,9 @@ import type { Metadata } from "next"
 import { LocationPage } from "@/components/LocationPage"
 
 export const metadata: Metadata = {
-  title: "Pool Builders in Brisbane — Get 3 Free Quotes | PoolHub",
+  title: "Pool Builders in Brisbane — Get Free Quotes | PoolHub",
   description:
-    "Compare licensed pool builders in Brisbane. Get 3 free quotes from local pool builders. No obligation.",
+    "Compare licensed pool builders in Brisbane. Get free quotes from local pool builders. No obligation.",
 }
 
 export default function PoolBuildersBrisbane() {

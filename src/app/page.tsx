@@ -20,7 +20,7 @@ export default async function HomePage() {
       <section className="mb-10">
         <h1 className="text-3xl font-bold text-white sm:text-4xl lg:text-5xl">
           Planning a Pool?{" "}
-          <span style={{ color: "var(--accent)" }}>Get 3 Free Quotes</span>
+          <span style={{ color: "var(--accent)" }}>Get Free Quotes</span>
         </h1>
         <p className="mt-3 text-lg text-zinc-400 max-w-2xl">
           Compare prices from licensed pool builders in your area. Free, no obligation.

@@ -19,7 +19,7 @@ export async function LocationPage({ city, state, costRange, tips }: LocationPag
         <h1 className="text-3xl font-bold text-white sm:text-4xl lg:text-5xl">
           Pool Builders in {city}{" "}
           <span style={{ color: "var(--accent)" }}>
-            — Get 3 Free Quotes
+            — Get Free Quotes
           </span>
         </h1>
         <p className="mt-3 text-lg text-zinc-400 max-w-2xl">
@@ -31,7 +31,7 @@ export async function LocationPage({ city, state, costRange, tips }: LocationPag
             className="inline-flex items-center gap-2 rounded-xl px-7 py-3.5 text-sm font-semibold text-white transition-all shadow-lg"
             style={{ background: "var(--accent)" }}
           >
-            Get My 3 Quotes &rarr;
+            Get My Quotes &rarr;
           </a>
         </div>
       </section>
