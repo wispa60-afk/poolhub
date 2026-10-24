@@ -1,5 +1,6 @@
 export const siteConfig = {
   name: "PoolHub",
+  description: "Pool guides for Australian homeowners: building costs, maintenance, safety fencing, heating and equipment, plus free quotes from local pool builders.",
   tagline: "Australia's Pool & Outdoor Living Guide",
   domain: "poolhubai.com.au",
   port: 3204,
